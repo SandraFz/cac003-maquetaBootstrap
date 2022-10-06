@@ -1,0 +1,21 @@
+.bg-html{
+    background: radial-gradient(circle closest-corner,#F59035, #EB5824);
+}
+
+.bg-html img{
+}
+
+.b-shadow{
+    position:absolute;
+    width: 25%;
+    height: 1%;
+    padding: 1%;
+    top:5%;
+    border-radius: 50%;
+    background-color: blue;/*rgba(0, 0, 0, 0.5)*/
+    box-shadow: 10px 10px 5px 12px lightblue;
+}
+
+/*.b-shadow:not(img){
+    
+}*/
