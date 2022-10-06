@@ -5,6 +5,31 @@
 .b-shadow{
     width: 25%;
     height: 1%;
+    bottom: 12%;
     padding: 1%;
     background-image: radial-gradient(#C85520 5%, rgba(200, 85, 32, 0) 60%);
 }
+
+.bg-css{
+    background-color: #266985;
+}
+
+.css-1{
+    background-color: #4F9DA4;
+    top: 0%;
+    z-index: 1;
+    clip-path: polygon(0% 0, 58% 0%, 33% 100%, 0 100%);
+}
+
+.css-2{
+    background-color: #4F8BA4;
+    top: 0%;
+    z-index: 2;
+    clip-path: polygon(0% 0, 58% 0%, 0 60%);
+}
+
+.bg-css img{
+    width: 46%;
+    z-index: 3;
+}
+
