@@ -1,3 +1,5 @@
+
+
 .bg-html{
    background-image: radial-gradient(circle, #F59035 15%, #EF6128 50%, #F06129 55%, #EB5824);
 }
@@ -29,7 +31,24 @@
 }
 
 .bg-css img{
-    width: 46%;
     z-index: 3;
+}
+
+.bg-bootstrap{
+    background-color: #5D3C7F;
+}
+
+@media screen and (min-width:385px) {
+    .bg-html, .bg-css, .bg-bootstrap{
+        height: 60%;
+        max-height: 160px;
+     }
+
+     .card{
+        height: 80vh;
+        max-height: 300px;
+    }
+   
+    
 }
 
