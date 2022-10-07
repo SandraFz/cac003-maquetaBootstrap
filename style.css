@@ -1,15 +1,14 @@
 
 
 .bg-html{
-   background-image: radial-gradient(circle, #F59035 15%, #EF6128 50%, #F06129 55%, #EB5824);
+   background: radial-gradient(circle, #F59035 15%, #EF6128 50%, #F06129 55%, #EB5824);
 }
 
 .b-shadow{
-    width: 25%;
     height: 1%;
     bottom: 12%;
     padding: 1%;
-    background-image: radial-gradient(#C85520 5%, rgba(200, 85, 32, 0) 60%);
+    background: radial-gradient(#C85520 5%, rgba(200, 85, 32, 0) 60%);
 }
 
 .bg-css{
@@ -38,6 +37,18 @@
     background-color: #5D3C7F;
 }
 
+@media  (max-width:812px) and (orientation:landscape) {
+    .bg-html, .bg-css, .bg-bootstrap{
+        max-height: 45vh;
+    }
+}
+
+@media screen and (min-widht:768px){
+    .bg-html, .bg-css, .bg-bootstrap{
+        height: 60%;
+    }
+}
+/*
 @media screen and (min-width:385px) {
     .bg-html, .bg-css, .bg-bootstrap{
         height: 60%;
@@ -50,5 +61,5 @@
     }
    
     
-}
+}*/
 
