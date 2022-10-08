@@ -1,6 +1,3 @@
-.bg-html{background:radial-gradient(circle,#f59035 15%,#ef6128 50%,#f06129 55%,#eb5824)}.b-shadow{height:1%;bottom:12%;padding:1%;background:radial-gradient(#c85520 5%,rgba(200,85,32,0) 60%)}.bg-css{background-color:#266985}.css-1{background-color:#4f9da4;top:0;z-index:1;clip-path:polygon(0% 0,58% 0%,33% 100%,0 100%)}.css-2{background-color:#4f8ba4;top:0;z-index:2;clip-path:polygon(0% 0,58% 0%,0 60%)}.bg-css img{z-index:3}.bg-bootstrap{background-color:#5d3c7f}
-
-/*
 .bg-html{
    background: radial-gradient(circle, #F59035 15%, #EF6128 50%, #F06129 55%, #EB5824);
 }
@@ -37,5 +34,5 @@
 .bg-bootstrap{
     background-color: #5D3C7F;
 }
-*/
+
 
